@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<head>
+  <title>Sati's Fruit Store Page</title>
+	<link rel="stylesheet" href="./css/main.css">
+  <header id="header">
+    <img alt="Box with fruits and Vegetables" id="header-img" src="https://img.icons8.com/cotton/64/000000/vegetables-box--v1.png"/>
+    <h1>Santi's Fruit Store </h1>
+    <nav id="nav-bar">
+      <ul>
+        <a href="#section01" class="nav-link"> Home </a>
+        <a href="#section02" class="nav-link"> Products </a>
+        <a href="#section03" class="nav-link"> Subscriptions </a>
+        <a href="#section04" class="nav-link"> Contact </a>
+      </ul>
+    </nav>
+  </header>
+</head>
+<body>
+  <main>
+    <section id="section01">  
+      <h1>don't forget to get your greens!</h1>
+      
+      <div class="desc">      
+      <div class="icon"><img src="https://img.icons8.com/dotty/100/000000/food-receiver.png"/></div>
+        <div class="text">
+        <h4>a farmer's market right at your doorstep</h4>
+      <p> Santi's Fruit Store is a family business that brings you the opportunity to get the finest fruits and vegetables right at your doorstep. <br>With the COVID-19 pandemic, farmer markets weren't able to ... so with our online store we want to ensure you can get the same quality as you did in a farmer's market or in a physical store. </p></div>
+      </div>
+      
+      <div class="desc">
+      <div class="icon"><img src="https://img.icons8.com/dotty/100/000000/healthy-food.png"/></div>
+      <div class="text"><h4>choose between out finest seasonal products</h4>
+        <p>We offer in our online store a selection of the best products according to each season and also offer a subscription box that will be shipped to you with our finest, seasonal greens. </p></div>
+      </div>
+      
+      <div class="desc">
+        <div class="icon"><img src="https://img.icons8.com/dotty/100/000000/deliver-food.png"/></div>
+      <div class="text"><h4>fast shipping -- and ecological</h4>
+      <p>
+        Your order will be shipped in a period of 24-48 hours time by our electric, refrigerated truck fleet.</p>
+        </div>
+      </div>
+      <div id="iframe-wrapper">
+      <p>We also have a physical store, where you can visit us and have a chat!</p>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/K70vv1XNUww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </section>
+    
+    <section id="section02">
+      <h1>best products of the season</h1>
+      <!--<div id="grid">-->
+        <div class="vegetables">
+          <div class ="case_vegetables">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/zucchini.png"/>
+            <h2>zucchini</h2>
+            <p>1.53 €/kg</p>
+            <button class="button">Select</button>
+          </div>
+          <div class ="case_vegetables">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/spinach.png"/>
+            <h2>spinach</h2>
+            <p>0.96 €/kg</p>
+            <button class="button">Select</button>
+           </div>
+          <div class ="case_vegetables">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/celery.png"/>
+            <h2>celery</h2>
+            <p>1.15 €/kg</p>
+            <button class="button">Select</button>
+          </div>
+          <div class ="case_vegetables">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/paprika.png"/>
+            <h2>pepper</h2>
+            <p>1.22 €/kg</p>
+            <button class="button">Select</button>
+          </div>  
+        </div>
+        <div class="fruits">
+          <div class ="case_fruts">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/cherry.png"/>
+          <h2>cherries</h2>
+          <p>2.75 €/kg</p>
+          <button class="button">Select</button>
+        </div>
+          <div class ="case_fruts">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/kiwi.png"/>
+          <h2>kiwis</h2>
+          <p>1.06 €/kg</p>
+          <button class="button">Select</button>
+        </div>
+          <div class ="case_fruts">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/orange.png"/>
+          <h2>oranges</h2>
+          <p>1.42 €/kg</p>
+          <button class="button">Select</button>
+        </div>
+        </div>
+      <!--</div>-->
+    </section>
+    
+    <section id="section03">
+      <h1>subsciption options</h1>
+       <div class="subscriptions">
+          <div class ="sub">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/raspberry.png"/>
+            <h2>subscription #01: raspberry</h2>
+            <p>15€</p>
+              <p class="list">Monthly sent</p>
+              <p class="list">5 of our best seasonal products</p>
+              <p class="list">Delivered to your doorstep</p>
+            <button class="button">Select</button>
+          </div>
+          <div class ="sub">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/plum.png"/>
+            <h2>subscription #02: plum</h2>
+            <p>25 €</p>
+              <p class="list">Monthly sent</p>
+              <p class="list">10 of our best seasonal products</p>
+              <p class="list">Delivered to your doorstep</p>
+            <button class="button">Select</button>
+           </div>
+          <div class ="sub">
+            <img id="case-img" src="https://img.icons8.com/color/96/000000/watermelon.png"/>
+            <h2>subscription #03: watermelon</h2>
+            <p>50 €</p>
+              <p class="list">Weekly sent</p>
+              <p class="list">5 of our best seasonal products</p>
+              <p class="list">Delivered to your doorstep</p>
+            <button class="button">Select</button>
+          </div>
+        </div>
+      </section>
+      <section id="section04">
+        <h1>contact</h1>
+        <div class="contact">
+          <div class="contact-info">
+          <li>Direction:<br>
+            <p style="text-indent:20px; font-size: 0.8em;">Plaza de Rutilio Gacis, 2 - Local 1 - 28045 Madrid</p>
+          </li>
+          <li>Opening times: <br>
+            <p style="text-indent:20px; font-size: 0.8em;">Monday - Friday: 10:00 – 20:00</p>
+            <p style="text-indent:20px; font-size: 0.8em;">Saturday: 11:00 – 14:00</p>
+          </li>
+        </div>
+          <div class="newsletter">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label><p>Suscribe to our newsletter if you want to know more!</p></label>
+        <input id="email" type="email" class="fill-in" name="email" placeholder="youremail@mail.com"/><br>
+        <input id="submit" type="submit" name="submit" value="Suscribe!"/>
+      </form></div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    
+    <p>Developed with ❤️ by annassanchez, you can find me in <a class="footer-link" href="https://github.com/annassanchez" target="_blank">codepen</a>, <a class="footer-link"href="https://codepen.io/annassanchez" target="_blank">github</a> or <a class="footer-link" href="https://twitter.com/amoaloskiwis" target="_blank">twitter</a> | FCC Product Landing Page assignment</p>
+    
+    <div class="refs">
+      
+  <a class="footer-link" href="https://icons8.com/icon/118876/caja-de-verduras">Caja de verduras icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/101782/entrega-de-alimentos">Entrega de alimentos icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/nvQFnDGRXSen/comida-sana">Comida sana icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/101782/entrega-de-alimentos">Entrega de alimentos icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/64431/calabacín">Calabacín icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/qIF4XIx-ZSGt/spinach">Spinach icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/19021/apio">Apio icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/18075/pimenton">Pimenton icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/19527/cereza">Cereza icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/18065/kiwi">Kiwi icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/57233/naranja">Naranja icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/19529/frambuesa">Frambuesa icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/19526/ciruela">Ciruela icon by Icons8</a>
+    <a class="footer-link" href="https://icons8.com/icon/18107/sandía">Sandía icon by Icons8</a>
+      </div>
+  </footer>
+</body>
